@@ -21,6 +21,7 @@ const config = {
   organizationName: 'alertap', // Usually your GitHub org/user name.
   projectName: 'doc', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
